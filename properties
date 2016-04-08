@@ -1,0 +1,6 @@
+import bpy
+
+
+class MaterialSettings(bpy.types.PropertyGroup):
+    name = bpy.props.StringProperty()
+    create_date= bpy.props.StringProperty()
